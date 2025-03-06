@@ -29,11 +29,13 @@ body {
 }
 
 .hero-container{
+  margin: 0 auto;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 2px 2px 4px 4px #D2D6DB;
   padding: 40px;
   padding-top: 120px;
+  height: calc(100vh - 40px);
 }
 
 .left-section{
@@ -52,4 +54,3 @@ button{
 button:focus{
   border: 1px solid #cfd0d2;
 }
-
