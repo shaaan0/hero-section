@@ -28,7 +28,29 @@ body {
   font-weight: bold;
 }
 
-/* .learn-more{
-  background-color: #E5E5E5;
-} */
+.hero-container{
+  background-color: #ffffff;
+  /* padding: 25px; */
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 4px #D2D6DB;
+  padding: 40px;
+  padding-top: 120px;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+}
+.learn-more{
+  border: 1px solid #E5E5E5;
+}
+button{
+  box-shadow: 1px 1px 1px 1px #D2D6DB;
+}
+button:focus{
+  border: 1px solid #cfd0d2;
+}
 
